@@ -94,6 +94,30 @@
                     </ul>
                 </section>
              </div>
+             <div>
+                <section>
+                    <form action="/action_page.php">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <input type="checkbox" id="acopy" name="emailcopy" value="copy">
+                        <label for="acopy"> Email me a copy</label><br>
+                        <input type="checkbox" id="human" name="human" value="Human">
+                        <label for="human"> I am a human</label><br>
+                        <label for="options">Please choose an option</label>
+                        <select name="option" id="option">
+                            <option value="system">System</option>
+                            <option value="business">Business</option>
+                            <option value="humanresources">Human Resource</option>
+                        </select>
+                        <textarea name="message" rows="10" cols="30">
+                            Enter your message
+                            </textarea>
+                        <input type="submit" value="Send">
+                      </form>
+                </section>
+             </div>
                 <footer>
 
                 </footer>
