@@ -1,46 +1,20 @@
-*{margin-top:0; padding: 0;}
+*{margin-top:0; padding: 0;
+    font-family: "Roboto",sans-serif;}
 #header{ background-color:#41426F;
+    position: absolute;
     color: white;
     height:120px;
-    font-weight:1512px;
-}
-#headertitle{margin-top:36px;
-    margin-left:32px;
-font-size: 47px;}
-#siderbarmenu{ image-orientation:center; background-color:#41426F;
-height:982px;
-width: 288px;
-float:none;
-color: white
-}
-#siderbarsearch{width: 255px;
-    height: 38px;
-    background:transparent;
-    border:content;
-    border-color: white;
-    font-size: 14px;
-    padding-left: 45px;
-    border-radius: 5px;
-    margin: 16px
+    width:1512px;
+    margin-top: 0;
+    margin-left: 0;
     }
-#siderbarbotton{background-color:white;
-    height: 50px;
-    width:255px;
-    border-color:white;
-    border-radius:5px;
-    border-width: 1px;
-    color:#41426F;
-    text-align: center;
-    margin-bottom: 12px;
-    margin-left: 16px;
-    font-size: 18px;
-    float: inline-start;
- }
-#siderbarcontact{color:white;
-     margin: 14px;
-    text-align: left;
-    font-size: 18px;}
-#siderbarh2{text-decoration-line:underline; text-decoration-color:white; margin-left: 16px; font-size: 47px;}
-#siderbartitle{text-decoration-line: underline; text-decoration-color: white; margin-left: 10px; margin-top: 98px;}
-#mail{list-style-image: url(Semana-03\iconos\Frame 64.png); list-style-position: inside;}
-
+#headertitle{position: absolute;
+    width: 199px;
+    left: 32px;
+    top: 36px;
+    bottom: 37px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;}
