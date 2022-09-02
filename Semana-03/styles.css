@@ -6,7 +6,8 @@
     font-family: 'Roboto', sans-serif;
 }
     #header{ background-color:#41426F;
-        position: absolute;
+        position: fixed;
+        z-index: 2;
         color:#FFFFFF;
         height:120px;
         width:1512px;
@@ -22,13 +23,14 @@
         font-size: 40px;
         line-height: 47px;}
     #siderbarmenu{
-        position: absolute;
+        position: sticky;
+        z-index: 2;
         width: 282px;
         height: 959px;
         left: 0px;
         top: 115px;
         background: #41426F;
-    }
+        }
     #siderbarmenu h2{position: absolute;
         width: 102px;
         height: 47px;
@@ -40,7 +42,7 @@
         line-height: 47px;
         color: #FFFFFF;
         text-decoration-line:underline;
-        text-decoration-color:#FFFFFF}
+        text-decoration-color:#FFFFFF;}
     #siderbarsearch{
         box-sizing: border-box;
         display: flex;
@@ -58,8 +60,8 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 16px;
-        opacity: 0.5;
-        padding: 7px}
+        opacity: 0.2;
+        padding: 7px;}
     #homebutton{position: absolute;
         width: 255px;
         height: 50px;
@@ -72,8 +74,15 @@
         font-size: 15px;
         line-height: 18px;
         text-align: center;
+        vertical-align: middle;
         color: #41426F;
         top: 158px;}
+    #homebutton:hover{
+        background: #AACE9B;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        color: #FFFFFF;
+        }
     #loginbutton { top: 233px;
             position: absolute;
             width: 255px;
@@ -87,8 +96,15 @@
             font-size: 15px;
             line-height: 18px;
             text-align: center;
+            vertical-align: middle;
             color: #41426F}
-    #singupbutton{position: absolute;
+        #loginbutton:hover{
+            background: #AACE9B;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            color: #FFFFFF;
+        }
+        #singupbutton{position: absolute;
             width: 255px;
             height: 50px;
             left: 17px;
@@ -101,7 +117,14 @@
             font-size: 15px;
             line-height: 18px;
             text-align: center;
+            vertical-align: middle;
             color: #41426F}
+        #singupbutton:hover{
+                background: #AACE9B;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+                color: #FFFFFF;
+            }
     #siderbarcontact h3{position: absolute;
         width: 82px;
         height: 18px;
@@ -118,7 +141,7 @@
         width: 255px;
         height: 108px;
         left: 17px;
-        top: 505px;
+        top: 500px;
         font-weight: 700;
         font-size: 15px;
         line-height: 18px;
@@ -127,8 +150,8 @@
         .contact :first-child{position: absolute;
             width: 193px;
             height: 29px;
-            left: 16px;
-            top: 655px;
+            margin-left: 16px;
+            margin-top: 628px;
             font-weight: 700;
             font-size: 14px;
             line-height: 16px;
@@ -138,8 +161,8 @@
         .contact :nth-child(2){position: absolute;
             width: 193px;
             height: 29px;
-            left: 16px;
-            top: 692px;
+            margin-left: 16px;
+            margin-top: 677px;
             font-weight: 700;
             font-size: 15px;
             line-height: 18px;
@@ -152,8 +175,8 @@
             position: absolute;
             width: 193px;
             height: 29px;
-            left: 16px;
-            top: 737px;
+            margin-left: 16px;
+            margin-top: 732px;
             font-weight: 700;
             font-size: 13px;
             line-height: 16px;
@@ -161,3 +184,67 @@
             align-items: center;
             color: #FFFFFF;
             }
+        #main{position: absolute;
+                width: 1223px;
+                height: 2923px;
+                left: 289px;
+                top: 121px;}
+                #main>h2{position: absolute;
+                    width: 183px;
+                    height: 35px;
+                    left: 70px;
+                    top: 102px;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 35px;
+                    color: #373867;}
+                #main>h3{position: absolute;
+                    width: 120px;
+                    height: 23px;
+                    left: 70px;
+                    top: 149px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #373867;}
+                #main>p{position: inherit;
+                    width: 411px;
+                    height: 234px;
+                    left: 70px;
+                    top: 184px;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 25px;
+                    color: #41426F;
+                    }
+                #main>button{position: absolute;
+                    z-index: 0;
+                    width: 147px;
+                    height: 47px;
+                    left: 334px;
+                    top: 428px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 5px;
+                    border-color: #FFFFFF;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    color: #000000;}
+                #main>button:hover{
+                    background: #AACE9B;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 5px;
+                    color: #FFFFFF;
+                }
+                #mainimagen{float: left;
+                    z-index: 0;
+                position: relative;
+                margin-right: 52px;
+                margin-left: 502px;
+                margin-top: 102px;
+                width: 663px;
+                height: 373px;}
