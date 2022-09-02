@@ -1,20 +1,163 @@
-*{margin-top:0; padding: 0;
-    font-family: "Roboto",sans-serif;}
-#header{ background-color:#41426F;
-    position: absolute;
-    color: white;
-    height:120px;
-    width:1512px;
-    margin-top: 0;
-    margin-left: 0;
+#body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+    #header{ background-color:#41426F;
+        position: absolute;
+        color:#FFFFFF;
+        height:120px;
+        width:1512px;
+        margin-top: 0;
+        margin-left: 0;
+        }
+    #headertitle{position: absolute;
+        width: 199px;
+        left: 32px;
+        top: 36px;
+        bottom: 37px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;}
+    #siderbarmenu{
+        position: absolute;
+        width: 282px;
+        height: 959px;
+        left: 0px;
+        top: 115px;
+        background: #41426F;
     }
-#headertitle{position: absolute;
-    width: 199px;
-    left: 32px;
-    top: 36px;
-    bottom: 37px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;}
+    #siderbarmenu h2{position: absolute;
+        width: 102px;
+        height: 47px;
+        left: 17px;
+        top: 23px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+        text-decoration-line:underline;
+        text-decoration-color:#FFFFFF}
+    #siderbarsearch{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+        position: absolute;
+        width: 255px;
+        height: 38px;
+        left: 17px;
+        top: 95px;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        opacity: 0.5;
+        padding: 7px}
+    #homebutton{position: absolute;
+        width: 255px;
+        height: 50px;
+        left: 17px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        border-color: #FFFFFF;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #41426F;
+        top: 158px;}
+    #loginbutton { top: 233px;
+            position: absolute;
+            width: 255px;
+            height: 50px;
+            left: 17px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            border-color: #FFFFFF;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            color: #41426F}
+    #singupbutton{position: absolute;
+            width: 255px;
+            height: 50px;
+            left: 17px;
+            top: 308px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            border-color: #FFFFFF;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            color: #41426F}
+    #siderbarcontact h3{position: absolute;
+        width: 82px;
+        height: 18px;
+        left: 17px;
+        top: 454px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-decoration-line: underline;
+        text-decoration-color: #FFFFFF;}
+    #siderbarcontact p{
+        position: absolute;
+        width: 255px;
+        height: 108px;
+        left: 17px;
+        top: 505px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        }
+        .contact :first-child{position: absolute;
+            width: 193px;
+            height: 29px;
+            left: 16px;
+            top: 655px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+            list-style-image: url(Semana-03\iconos\Frame64.png);
+            }
+        .contact :nth-child(2){position: absolute;
+            width: 193px;
+            height: 29px;
+            left: 16px;
+            top: 692px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+            }
+        .contact :last-child{
+            position: absolute;
+            width: 193px;
+            height: 29px;
+            left: 16px;
+            top: 737px;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 16px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            }
