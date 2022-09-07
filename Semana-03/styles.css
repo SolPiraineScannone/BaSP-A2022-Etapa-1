@@ -1009,3 +1009,26 @@
                             line-height: 18px;
                             color: #373867;
                         }
+    #footer{position: sticky;
+        width: 60,5%;
+        max-width: 1230px;
+        height: 147px;
+        margin-left: 282px;
+        margin-top: 844px;
+        padding-left: 312px;
+        background: #41426F;
+    }
+        #footer h4{ margin-left: -200px;
+            margin-top: 5px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        #footer img{width: 4%;
+            height: 47px;
+            margin: 20px 90px 40px 90px;
+            align-items: center;
+        }
