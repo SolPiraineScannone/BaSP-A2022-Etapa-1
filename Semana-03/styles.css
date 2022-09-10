@@ -78,7 +78,7 @@
                 margin-left: -220px;
                 margin-bottom: -25px;
             }
-        #nav-home{position: absolute;
+        #nav-home{position: relative;
             width: 85%;
             height: 50px;
             margin-left: 15px;
@@ -104,11 +104,12 @@
                 text-align: center;
                 vertical-align: middle;
             }
-            #nav-icon-home{position: absolute;
-            left: 31.76%;
-            right: 60.39%;
-            top: 30%;
-            bottom: 29.92%;
+            .fa-sharp .fa-solid .fa-house{position: relative;
+                display: inline;
+            padding-left: 10px;
+            padding-top: 5px;
+            color: #373867;
+            
             }
                 #nav-home:hover{background: #AACE9B;
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

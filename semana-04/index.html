@@ -8,38 +8,40 @@
         <meta name="keywords" content="job, work hours, Trackgenix, TRACKGENIX, GigaTech">
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap%27">
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="css\styles.css">
+        <link rel="stylesheet" type="text/css" href="css\header.css">
+        <link rel="stylesheet" type="text/css" href="css\aside.css">
+        <link rel="stylesheet" type="text/css" href="css\main.css">
+        <link rel="stylesheet" type="text/css" href="css\footer.css">
+        <script src="https://kit.fontawesome.com/b03959835d.js" crossorigin="anonymous"></script>
         <title>Trackgenix</title>
     </head>
     <body id="body">
         <header id="header">
-            <h1 id="headertitle">Trackgenix</h1>
+            <h1>Trackgenix</h1>
+            <i class="fa-sharp fa-solid fa-bars"></i>
         </header>
         <aside id="siderbar">
-            <div id="siderbar-title">
                 <h2>Menu</h2>
-            </div>
-            <div id='search-box'>
-                <form action='/search' id='search-form' method='get' target='_top'>
-                    <input id='search-text' name='q' placeholder='Search' type='text'/>
-                        <img src="C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\iconos\search-white.png" alt="search-icon" id="search-icon">
+                <form action='/search' method='get' target='_top'>
+                    <input name='q' placeholder='Search' type='text'/>
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </form>
-            </div>
-            <div>
-                <a href="##" id="nav-home">
-                    <h3 class="nav-titles">Home</h3>
-                    <img src="C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\iconos\home2-icon.png" id="nav-icon-home" alt="home icon">
+            <nav class="siderbar-nav">
+                <a href="##" class="nav-button">
+                    <h3>Home</h3>
+                    <i class="fa-sharp fa-solid fa-house"></i>
                 </a>
-                <a href="##" id="nav-login">
-                    <h3 class="nav-titles">LogIn</h3>
+                <a href="##" class="nav-button">
+                    <h3>LogIn</h3>
                     <img src="C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\iconos\login-icon.png" id="nav-icon-login" alt="login icon">
                 </a>
-                <a href="##" id="nav-singup">
-                    <h3 class="nav-titles">SingUp</h3>
+                <a href="##" class="nav-button">
+                    <h3>SingUp</h3>
                     <img src="C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\iconos\man-icon.png" id="nav-icon-singup" alt="singup icon">
                 </a>
-            </div>
-            <div id="siderbarcontact">
+            </nav>
+            <div class="siderbar-contact">
                 <h3>Get in toch</h3>
                 <p>
                     Gigatech is always looking for talented software developers to join our team. If you are
@@ -47,19 +49,19 @@
                     experience and skills.
                 </p>
             </div>
-            <div>
-                <img src="C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\iconos\mail-white-icon.png" alt="adress icon" id="adress-icon">
-                <h3 id="contact-data">trackgenix@gigatech.com</h3>
-                <img src="C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\vectores\Vector 18.png" alt="vectorcontact" id="vector-contact">
-            </div>
-            <div>
-                <img src= "C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\iconos\phone-white.png" alt="adress icon" id="phone-icon">
-                <h3 id="contact-data2">415-200-0042</h3>
-                <img src="C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\vectores\Vector 18.png" alt="vectorcontact" id="vector-contact">
-            </div>
-            <div>
-                <img src="C:\Users\usuario\Desktop\BaSP-A2022-Etapa-1\Semana-03\iconos\home-white.png" alt="adress icon" id="home-icon"> 
-                <h3 id="contact-data3">621 Taylor St. , San Francisco, CA</h3>
+            <div class="siderbar-container">
+                <div class="siderbar-data">
+                    <i class="fa-light fa-envelope"></i>
+                    <h3 id="contact-data">trackgenix@gigatech.com</h3>
+                </div>
+                <div class="siderbar-data">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3 id="contact-data2">415-200-0042</h3>
+                </div>
+                <div class="siderbar-data">
+                    <i class="fa-sharp fa-solid fa-house-chimney"></i>
+                    <h3 id="contact-data3">621 Taylor St. , San Francisco, CA</h3>
+                </div>
             </div>
         </aside>
         <main id="main">

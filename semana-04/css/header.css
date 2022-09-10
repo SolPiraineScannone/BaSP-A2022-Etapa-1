@@ -1,0 +1,24 @@
+header{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    height: 120px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #41426F;
+}
+header h1{
+    width: 20%;
+    padding-left: 5px;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF
+}
+.fa-bars{
+    width: 5%;
+    color: #FFFFFF;
+    font-size: 47px;
+}
